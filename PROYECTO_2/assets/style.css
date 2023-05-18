@@ -1,0 +1,140 @@
+.fondo{
+    background-image: url(../assets/img/stage.jpg);
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box-box{
+    margin-left: 7%;
+    margin-right: 50%; 
+    position:relative;
+    top: 10%; 
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 992px){
+    .centrar_center{
+        display: flex;
+        justify-content: center;
+        
+    }}
+
+ @media screen and (max-width: 972px){
+    .conjunto{
+        margin-bottom: -5%;
+    }
+        }
+
+        @media screen and (max-width: 875px){
+            .box-box{
+                margin-right: 45%;
+            }
+                }
+
+@media screen and (max-width: 800px){
+    .prueba_tamaño{
+        height: 600px;
+    }
+
+    .box-box{
+        justify-content: center;
+        margin:0px;
+        margin-left: 20%;
+        margin-right: 20%;
+    }    
+}
+
+@media screen and (max-width: 700px){
+    .bg-imgen{
+        background-position: 50% 50%;
+        }
+
+    .prueba_tamaño{
+        height: 550px;
+        }  
+}
+
+@media screen and (max-width: 632px){
+    .box-box{
+        margin-right: 10%;
+        margin-left: 10%;
+        margin-bottom: 0px;
+    }
+        }
+
+@media screen and (max-width: 600px){
+    .prueba_tamaño{
+        height: 500px;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .prueba_tamaño{
+        height: 400px;
+    }
+}
+
+@media screen and (max-width: 478px){
+    .box-box{
+        margin-right: 5%;
+        margin-left: 5%;
+        margin-bottom: 0px;
+        margin-top: 0px;
+    }
+        }
+
+@media screen and (max-width: 478px){
+    .box-box{
+        margin-right: 0%;
+        margin-left: 0%;
+        margin-bottom: 0px;
+        margin-top: 0px;
+    }
+        }
+
+@media screen and (max-width: 400px){
+    .prueba_tamaño{
+        height: 300px;
+    }
+}
+
+@media screen and (max-width: 387px){
+    .box-box{
+        position:relative;
+        top: 0%;
+    }
+        }
+
+    .bg-imgen{
+        box-sizing: border-box !important;
+    }
+
+    @media screen and (max-width: 339px){
+        .box-box{ 
+            box-sizing: border-box !important;
+            position: relative;
+            top: 30%;
+            
+        }
+
+        .ocultar_Texto{
+            display: none;
+        }
+     
+            }
+
+
+@media screen and (max-width: 300px){
+    .prueba_tamaño{
+        height: 200px;
+    }
+}
+
+@media screen and (max-width: 200px){
+    .prueba_tamaño{
+        height: 100px;
+    }
+}
